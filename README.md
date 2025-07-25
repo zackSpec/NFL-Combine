@@ -46,3 +46,14 @@ This project uses **multiple linear regression** to predict a football player's 
 
 ---
 
+## Conclusions
+
+- Assumptions of Linearity are upheld
+- 86.4% of variability is explained by the model
+- The feature variables well-explain 40-yard dash time, indicating a strong linear relationship between the combine metrics and 40-yard dash performance
+
+---
+
+## Future Insight
+
+This linear regression model performs well, explaining ~ 86% of the variance in 40-yard dash times with low error and interpretable results, making it a strong baseline. However, it may miss non-linear relationships and interaction effects. In the future, I should explore regularization and tree-based models for improved accuracy.
